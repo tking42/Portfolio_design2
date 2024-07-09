@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 2px;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+/*header page*/
+
+header {
+    background-image: url("bathImg.jpg");
+    background-position: 50% 65%;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+
+header h1 {
+    font-size: 6rem;
+    margin-left: 4rem;
+}
+
+header h3 {
+    margin-left: 4.5rem;
+    font-size: 1rem;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+    transition: 0.8s;
+}
+
+/*about me page*/
+
+#aboutMe {
+    background-color: #30639E;
+    height: 100vh;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+#aboutMe div {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 0.5rem;
+}
+
+li {
+    margin-top: 4rem;
+}
+
+#aboutMe a {
+    text-decoration: underline;
+    color: #0000EE;
+}
+
+/*projects page*/
+
+#projects {
+    background-color: #d7c7c7;
+    height: 100vh;
+    color: white;
+}
+
+.project {
+    display: flex;
+    padding: 6rem 8rem;
+    flex-direction: column;
+}
+
+.scroll {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 5%;
+    margin-top: 3rem;
+    background-color: #d7c7c7;
+    width: 70vw;
+    height: 50vh;
+    overflow: auto;
+}
+
+.box {
+    border: solid white 0.5rem;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin-left: 1rem;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+.box:hover {
+    border: solid 0.5rem #676262;
+    transition: 0.7s;
+}
+
+/*contact page*/
+
+#contact {
+    background-color: #32585e;
+    height: 100vh;
+    color: white;
+}
+
+footer {
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+#contact p {
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 6rem;
+    width: 90vw;
+}
+
+i {
+    color: white;
+}
+
